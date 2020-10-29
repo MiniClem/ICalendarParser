@@ -92,6 +92,10 @@ public class Vevent extends Property implements Comparable<Vevent> {
         return DESCRIPTION;
     }
 
+    public String getDescriptionFormatted() {
+        return DESCRIPTION.replaceAll("(\\\\n)+", " ");
+    }
+
     public String getTRANSP() {
         return TRANSP;
     }
