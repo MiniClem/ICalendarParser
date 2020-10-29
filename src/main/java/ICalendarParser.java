@@ -19,7 +19,7 @@ public class ICalendarParser {
 
         while (scanner.hasNext()) {
             String line = scanner.nextLine();
-            String[] splits = line.split(":");
+            String[] splits = line.split(":", 2);
 
             switch (splits[0]) {
                 case "BEGIN" -> {
