@@ -1,5 +1,7 @@
 import properties.Vcalendar;
 import properties.Vevent;
+import tools.AMUAde;
+import tools.ICalendarParser;
 
 import java.io.IOException;
 import java.io.InputStream;

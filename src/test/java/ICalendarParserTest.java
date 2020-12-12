@@ -1,6 +1,7 @@
 import org.junit.jupiter.api.Test;
 import properties.Vcalendar;
 import properties.Vevent;
+import tools.ICalendarParser;
 
 import java.io.InputStream;
 
